@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #000000;
+
+}
+
+.hero{
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.hero img{
+    width: 50%;
+}
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+#input-number{
+    font-size: 18px;
+    color: #000000;
+    background-color: rgb(255, 217, 0);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(85, 102, 233);
+}
+
+#input-number::placeholder{
+    color: rgb(85, 102, 233);
+}
+
+#submit-btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 102, 233);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#submit-btn:hover {
+    background-color: rgb(14, 37, 209);
+  }
+  
+#container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.card-container{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow:rgb(255, 255, 255) 2px 2px 20px;;
+}
+
+.card-container img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.name{
+    font-size: 40px;
+    font-family: "Lilita One";
+    font-weight: 800;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    color: rgb(85, 102, 233);
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 5px;
+}
+
+.descripcion-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
+    color: rgb(117, 132, 246);;
+}
+
+.descripcion-title span{
+    font-weight: 900;
+    font-size: 16px;
+    color:  rgb(85, 102, 233);
+}
+
+
+
+.error-container{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow:rgb(255, 255, 255) 2px 2px 20px;;
+}
+
+.error-container img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "Lilita One";
+    font-weight: 800;
+    text-overflow: ellipsis;
+    color: rgb(214, 45, 29);
+    text-align: center;
+}
+
+.error span {
+    font-size: 30px;
+}
